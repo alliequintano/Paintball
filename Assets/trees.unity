@@ -271,6 +271,7 @@ GameObject:
   - 33: {fileID: 40576158}
   - 23: {fileID: 40576157}
   - 64: {fileID: 40576156}
+  - 114: {fileID: 40576159}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -318,7 +319,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -342,6 +343,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 905451901}
   m_GameObject: {fileID: 40576154}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &40576159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40576154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &79511759
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,9 +464,30 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
+--- !u!1 &166627506 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 176456, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+  m_PrefabInternal: {fileID: 1172527852}
+--- !u!114 &166627511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 166627506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &171121971
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +499,7 @@ GameObject:
   - 33: {fileID: 171121974}
   - 23: {fileID: 171121973}
   - 64: {fileID: 171121972}
+  - 114: {fileID: 171121976}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -498,7 +534,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -535,6 +571,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1363447496}
   m_RootOrder: 1
+--- !u!114 &171121976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 171121971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &207417125
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +625,7 @@ GameObject:
   - 33: {fileID: 228346916}
   - 23: {fileID: 228346915}
   - 64: {fileID: 228346914}
+  - 114: {fileID: 228346918}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -610,7 +660,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -647,6 +697,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 256536562}
   m_RootOrder: 1
+--- !u!114 &228346918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228346913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &256536561
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,6 +750,7 @@ GameObject:
   - 4: {fileID: 298941926}
   - 33: {fileID: 298941928}
   - 23: {fileID: 298941927}
+  - 114: {fileID: 298941929}
   m_Layer: 0
   m_Name: tree_1_canopy
   m_TagString: Untagged
@@ -746,6 +810,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1834592471}
   m_GameObject: {fileID: 298941925}
   m_Mesh: {fileID: 4300012, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &298941929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298941925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &314854550
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +911,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -1031,6 +1108,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -1114,6 +1195,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -1128,6 +1213,7 @@ GameObject:
   - 33: {fileID: 431799698}
   - 23: {fileID: 431799697}
   - 64: {fileID: 431799696}
+  - 114: {fileID: 431799699}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -1175,7 +1261,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -1199,6 +1285,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1422582649}
   m_GameObject: {fileID: 431799694}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &431799699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 431799694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &450690151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,7 +1343,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -1292,6 +1391,7 @@ GameObject:
   - 33: {fileID: 454398746}
   - 23: {fileID: 454398745}
   - 64: {fileID: 454398744}
+  - 114: {fileID: 454398747}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -1339,7 +1439,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -1363,6 +1463,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 610273215}
   m_GameObject: {fileID: 454398742}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &454398747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454398742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1001 &461066832
 Prefab:
   m_ObjectHideFlags: 0
@@ -1443,6 +1556,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -1545,6 +1662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!23 &532617055
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1722,6 +1841,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -1805,6 +1928,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -2165,6 +2292,7 @@ GameObject:
   - 33: {fileID: 607112908}
   - 23: {fileID: 607112907}
   - 64: {fileID: 607112906}
+  - 114: {fileID: 607112909}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -2212,7 +2340,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -2236,6 +2364,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 403210012}
   m_GameObject: {fileID: 607112904}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &607112909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 607112904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 0}
 --- !u!1001 &610273215
 Prefab:
   m_ObjectHideFlags: 0
@@ -2316,6 +2456,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -2606,6 +2750,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -2689,6 +2837,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -2703,6 +2855,7 @@ GameObject:
   - 33: {fileID: 684641279}
   - 23: {fileID: 684641278}
   - 64: {fileID: 684641277}
+  - 114: {fileID: 684641280}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -2750,7 +2903,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -2774,6 +2927,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 461066832}
   m_GameObject: {fileID: 684641275}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &684641280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684641275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &710905762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,35 +3039,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1492194450}
   m_RootOrder: 0
---- !u!21 &749470435
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - first:
-        name: PixelSnap
-      second: 0
-    m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &757888886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,7 +3097,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -2995,6 +3132,7 @@ GameObject:
   - 33: {fileID: 785203399}
   - 23: {fileID: 785203398}
   - 64: {fileID: 785203397}
+  - 114: {fileID: 785203400}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -3042,7 +3180,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -3066,6 +3204,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1850964788}
   m_GameObject: {fileID: 785203395}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &785203400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 785203395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &828576564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,6 +3228,7 @@ GameObject:
   - 33: {fileID: 828576568}
   - 23: {fileID: 828576567}
   - 64: {fileID: 828576566}
+  - 114: {fileID: 828576569}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -3124,7 +3276,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -3148,6 +3300,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1388907176}
   m_GameObject: {fileID: 828576564}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &828576569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 828576564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 0}
 --- !u!1001 &905451901
 Prefab:
   m_ObjectHideFlags: 0
@@ -3228,6 +3392,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -3401,6 +3569,134 @@ MeshFilter:
   m_PrefabInternal: {fileID: 666263473}
   m_GameObject: {fileID: 969277738}
   m_Mesh: {fileID: 4300012, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!43 &971336793
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 13
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
 --- !u!1 &985344074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,6 +3846,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -3598,7 +3898,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -3715,6 +4015,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -3828,6 +4132,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -3911,6 +4219,7 @@ GameObject:
   - 33: {fileID: 1107672610}
   - 23: {fileID: 1107672609}
   - 64: {fileID: 1107672608}
+  - 114: {fileID: 1107672612}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -3945,7 +4254,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -3982,6 +4291,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 601780878}
   m_RootOrder: 1
+--- !u!114 &1107672612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1107672607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &1117891116
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,7 +4362,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -4105,6 +4427,7 @@ GameObject:
   - 33: {fileID: 1164610389}
   - 23: {fileID: 1164610388}
   - 64: {fileID: 1164610387}
+  - 114: {fileID: 1164610390}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -4152,7 +4475,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -4176,6 +4499,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1829805446}
   m_GameObject: {fileID: 1164610385}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &1164610390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1164610385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1001 &1172527852
 Prefab:
   m_ObjectHideFlags: 0
@@ -4235,6 +4571,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.352765
       objectReference: {fileID: 0}
+    - target: {fileID: 2372202, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
   m_IsPrefabParent: 0
@@ -4516,6 +4856,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -4530,6 +4874,7 @@ GameObject:
   - 33: {fileID: 1253659251}
   - 23: {fileID: 1253659250}
   - 64: {fileID: 1253659249}
+  - 114: {fileID: 1253659253}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -4564,7 +4909,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -4601,6 +4946,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1408172940}
   m_RootOrder: 1
+--- !u!114 &1253659253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253659248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &1333652038
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,6 +5129,14 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
+    - target: {fileID: 2343992, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb8b16d738f86ef4aa304d6e668e853d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -4914,6 +5280,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -4997,6 +5367,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -5030,134 +5404,6 @@ Transform:
   - {fileID: 757888887}
   m_Father: {fileID: 1459498507}
   m_RootOrder: 32
---- !u!43 &1437551394
-Mesh:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 13
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
 --- !u!1 &1445752122
 GameObject:
   m_ObjectHideFlags: 0
@@ -5329,6 +5575,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -5541,6 +5791,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -5740,7 +5994,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -5990,7 +6244,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -6094,6 +6348,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -6177,6 +6435,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -6238,7 +6500,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -6374,6 +6636,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1716246244}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!21 &1720698866
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1735519731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,7 +6723,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -6669,6 +6960,7 @@ GameObject:
   - 33: {fileID: 1829455521}
   - 23: {fileID: 1829455520}
   - 64: {fileID: 1829455519}
+  - 114: {fileID: 1829455523}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -6703,7 +6995,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -6740,6 +7032,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1471578223}
   m_RootOrder: 1
+--- !u!114 &1829455523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1829455518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1001 &1829805446
 Prefab:
   m_ObjectHideFlags: 0
@@ -6820,6 +7125,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -6903,6 +7212,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -6917,6 +7230,8 @@ GameObject:
   - 33: {fileID: 1848781615}
   - 23: {fileID: 1848781614}
   - 64: {fileID: 1848781613}
+  - 114: {fileID: 1848781617}
+  - 114: {fileID: 1848781618}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -6951,7 +7266,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -6988,6 +7303,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 339099490}
   m_RootOrder: 1
+--- !u!114 &1848781617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1848781612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
+--- !u!114 &1848781618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1848781612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 0}
 --- !u!1001 &1850964788
 Prefab:
   m_ObjectHideFlags: 0
@@ -7068,6 +7408,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -7220,6 +7564,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -7303,6 +7651,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -7317,6 +7669,7 @@ GameObject:
   - 33: {fileID: 1893284003}
   - 23: {fileID: 1893284002}
   - 64: {fileID: 1893284001}
+  - 114: {fileID: 1893284005}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -7351,7 +7704,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -7388,6 +7741,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1371736678}
   m_RootOrder: 1
+--- !u!114 &1893284005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893284000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1 &1897881560
 GameObject:
   m_ObjectHideFlags: 0
@@ -7515,7 +7881,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -7787,6 +8153,10 @@ Prefab:
       value: 
       objectReference: {fileID: 111300000, guid: c4d00eb36ebd7d6439df66c21cfe3071,
         type: 2}
+    - target: {fileID: 2343994, guid: 7ad3883726e2c4448a86ab4449cd01bb, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
@@ -7848,7 +8218,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -7913,6 +8283,7 @@ GameObject:
   - 33: {fileID: 2102848093}
   - 23: {fileID: 2102848092}
   - 64: {fileID: 2102848091}
+  - 114: {fileID: 2102848094}
   m_Layer: 0
   m_Name: tree_1_trunk
   m_TagString: Untagged
@@ -7960,7 +8331,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7e56b6e37c078ed47b6d0e9d9249ea9f, type: 2}
+  - {fileID: 2100000, guid: 8ad8a2b8b0e9fbf4a86dbaaea66aff85, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -7984,6 +8355,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1526036444}
   m_GameObject: {fileID: 2102848089}
   m_Mesh: {fileID: 4300010, guid: 4735160b42a3154428094dff59ef0f4e, type: 3}
+--- !u!114 &2102848094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102848089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda8701daca17b142ac87e9c4d48d786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintballSplatPrefab: {fileID: 1000010104674716, guid: f92ba7ddeb8e9884abc5e35b62e6933f,
+    type: 2}
 --- !u!1001 &2109211936
 Prefab:
   m_ObjectHideFlags: 0
@@ -8026,11 +8410,11 @@ Prefab:
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1437551394}
+      objectReference: {fileID: 971336793}
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 749470435}
+      objectReference: {fileID: 1720698866}
     - target: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -142.557
