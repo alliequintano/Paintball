@@ -26,6 +26,9 @@ public class Shoot : MonoBehaviour {
     {
         Quaternion rotation = transform.rotation;
         GameObject paintball = (GameObject)Instantiate(paintballPrefab, transform.position, rotation);
+        Color newPaintColor = new Color(Random.value, Random.value, Random.value, 1.0f);
+        paintball.GetComponent<MeshRenderer>().material.color = newPaintColor;
+        GameManager.paintColor = newPaintColor;
         paintball.GetComponent<Rigidbody>().AddForce(paintball.transform.forward * paintballVelocity);
         Destroy(paintball, 2.0f);
     }

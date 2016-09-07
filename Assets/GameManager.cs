@@ -4,6 +4,7 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
 
     static public int gameScore;
+    static public Color paintColor;
     private static GameManager instance;
     public static GameManager Instance
     {

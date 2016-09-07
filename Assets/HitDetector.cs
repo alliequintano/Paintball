@@ -6,6 +6,9 @@ public class HitDetector : MonoBehaviour {
     {
         if (col.gameObject.CompareTag("paintball"))
         {
+            MeshRenderer renderer = gameObject.GetComponent<MeshRenderer>();
+            Material material = renderer.material;
+            material.color = GameManager.paintColor;
             GameManager.incrementScore();
             Destroy(col.gameObject);
         }
